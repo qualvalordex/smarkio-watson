@@ -1,0 +1,13 @@
+{
+  "name": "smarkio-watson",
+  "version": "1.0.0",
+  "description": "## Dependências",
+  "main": "index.js",
+  "scripts": {
+    "setup": "docker-compose up -d && cd .\\server && npm install && cd ..\\client && npm install",
+    "start-server": "cd .\\server && npm start",
+    "start-client": "cd .\\client && npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}

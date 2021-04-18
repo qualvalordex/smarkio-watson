@@ -1,0 +1,10 @@
+{
+    "development": {
+      "username": "watson",
+      "password": "tts@test",
+      "database": "smarkiodb",
+      "host": "127.0.0.1",
+      "port": "3307",
+      "dialect": "mysql"
+    }
+}
