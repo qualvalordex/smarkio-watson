@@ -4,7 +4,7 @@
   "description": "## Dependências",
   "main": "index.js",
   "scripts": {
-    "setup": "docker-compose up -d && cd .\\server && npm install && cd ..\\client && npm install",
+    "setup": "docker-compose up -d && cd server && npm install && npx sequelize-cli db:migration && cd ../client && npm install",
     "start-server": "cd .\\server && npm start",
     "start-client": "cd .\\client && npm start"
   },
