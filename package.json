@@ -4,9 +4,9 @@
   "description": "## Dependências",
   "main": "index.js",
   "scripts": {
-    "setup": "docker-compose up -d && cd server && npm install && npx sequelize-cli db:migrate && cd ../client && npm install",
-    "start-server": "cd .\\server && npm start",
-    "start-client": "cd .\\client && npm start"
+    "setup": "docker-compose up -d && cd server && npm install && cd ../client && npm install",
+    "start-server": "cd server && npx sequelize-cli db:migrate && npm start",
+    "start-client": "cd client && npm start"
   },
   "author": "",
   "license": "ISC"
