@@ -44,10 +44,8 @@ app.post('/api/tts', (req, res) => {
 
     const textToSpeech = new TextToSpeechV1({
         authenticator: new IamAuthenticator({
-        //   apikey: 'OoSTflFIxeDKbQXf_Wy1QnwKb0aH7aS4WToT2gi9JgAu',
             apikey: process.env.API_KEY,
         }),
-        // serviceUrl: 'https://api.us-east.text-to-speech.watson.cloud.ibm.com/instances/a9776872-13cd-4113-981e-d35af4395c7f',
         serviceUrl: process.env.API_URL,
     });
     
