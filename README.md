@@ -16,3 +16,5 @@ Você deverá receber a mensagem `Server is running on 8080`. Agora abra um novo
 npm start-client
 ```
 Caso a inicialização ocorra com sucesso, você receberá a mensagem `You can now view client in the browser.`. Basta abrir um navegador da internet e digitar o seguinte caminho: `http://localhost:3000` e o site irá inicializar.
+
+Antes de utilizar a aplicação, você deve adicionar as suas credenciais de acesso a API do IBM WATSON TTS. Para mais detalhes sobre como obter suas credenciais, [acesse a docementação oficial](https://cloud.ibm.com/docs/text-to-speech-data?topic=text-to-speech-data-gettingStarted&locale=pt-BR).
