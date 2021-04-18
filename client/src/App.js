@@ -92,7 +92,7 @@ function App() {
           <h2>COMENTÁRIOS</h2>
           {commentList.map((val) => {
             return(
-              <div className="Comment">
+              <div key={val.id} className="Comment">
                 <p>{val.comment}</p>
                 <button onClick={() => TTS(val.comment)}>Ouvir</button>
               </div>

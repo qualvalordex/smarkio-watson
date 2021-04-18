@@ -36,6 +36,10 @@ npm run start-server
 ```
 para subir o servidor. Você deverá receber a mensagem `Server is running on 8080`. Agora abra um novo terminal e, na raíz do projeto, execute o comando
 ```
-npm start-client
+npm run start-client
 ```
 Caso a inicialização ocorra com sucesso, você receberá a mensagem `You can now view client in the browser.`. Basta abrir um navegador da internet e digitar o seguinte caminho: `http://localhost:3000` e o site irá inicializar.
+
+## Screenshots
+
+<img src="https://i.imgur.com/z0u4qbI.png" width="300" title="Tela principal da aplicação" />
