@@ -2,7 +2,7 @@
 
 ## Dependências
 
-Para a completa execução deste projeto é necessário que você tenha o `docker-compose` instalado na sua máquina. [Veja na documentação oficial](https://docs.docker.com/compose/install/) como instalar.
+Para a completa execução deste projeto é necessário que você tenha o `docker-compose` instalado na sua máquina. [Veja na documentação oficial](https://docs.docker.com/compose/install/) como instalar. Também é necessário o `NodeJS` e o seu gerenciador de pacotes `npm`. [Aqui você pode baixá-lo.](https://nodejs.org/en/download/)
 
 ## Instalação do projeto
 
