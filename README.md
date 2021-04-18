@@ -29,6 +29,7 @@ Em um terminal, navegue até a pasta raíz do projeto e execute o comando
 npm run setup
 ```
 para instanciar o servidor MySQL e instalar as dependências do projeto.
+
 <img src="https://i.imgur.com/7bM84zk.gif" width="500" />
 
 Em seguida, digite o comando
@@ -36,7 +37,9 @@ Em seguida, digite o comando
 npm run start-server
 ```
 para subir o servidor.
+
 <img src="https://i.imgur.com/urumWaF.gif" width="500" />
+
 Você deverá receber a mensagem `Server is running on 8080`.
 
 Agora abra um novo terminal e, na raíz do projeto, execute o comando
