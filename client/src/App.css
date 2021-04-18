@@ -19,7 +19,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 10%;
-  background-color: #E25822;
+  background-color: #0f2c8a;
   color: #EEE;
 }
 
@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-around;
   height: 90%;
-  background-color: #555;
+  background-color: #fff;
 }
 
 .Form {
@@ -48,7 +48,7 @@ body {
 }
 
 button {
-  background-color: #E25822;
+  background-color: #0f2c8a;
   border: none;
   border-radius: 10px;
   width: 100px;
@@ -90,13 +90,14 @@ button:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1pt solid;
 }
 
 h2 {
   margin: 0;
   padding: 0;
   font-size: 20px;
-  color: #EEE;
+  color: #555;
 }
 
 p {
@@ -105,5 +106,5 @@ p {
   width: 80%;
   text-align: justify;
   font-size: 13px;
-  color: #888;
+  color: #999;
 }
