@@ -24,6 +24,9 @@ function App() {
         { comment: commentText }
       ]
     });
+
+    document.getElementById('txtComment').value='';
+    document.getElementById('txtComment').focus();
   };
 
   const TTS = (text) => {
@@ -76,7 +79,7 @@ function App() {
       <div className="Container">
         <div className="Form">
           <h2>COMENTAR</h2>
-          <textarea name="txtComment" onChange={(e) => {
+          <textarea id="txtComment" name="txtComment" onChange={(e) => {
             e.preventDefault()
             setCommentText(e.target.value)
           }} />
