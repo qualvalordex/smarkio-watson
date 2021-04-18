@@ -42,4 +42,4 @@ Caso a inicialização ocorra com sucesso, você receberá a mensagem `You can n
 
 ## Screenshots
 
-<img src="https://i.imgur.com/z0u4qbI.png" width="300" title="Tela principal da aplicação" />
+<img src="https://i.imgur.com/z0u4qbI.png" width="600" title="Tela principal da aplicação" />
