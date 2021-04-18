@@ -19,6 +19,11 @@ API_URL="ENDEREÇO_DO_SERVIÇO"
 
 ## Instalação do projeto
 
+Clone o repositório em um local de sua preferência:
+```
+git clone git@github.com:qualvalordex/smarkio-watson.git
+```
+
 Em um terminal, navegue até a pasta raíz do projeto e execute o comando
 ```
 npm run setup
